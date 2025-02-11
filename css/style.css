@@ -18,15 +18,23 @@
 .back-to-top {
     position: fixed;
     right: 30px;
-    bottom: 30px;
+    bottom: 80px;
     display: flex;
     width: 45px;
     height: 45px;
     align-items: center;
     justify-content: center;
     transition: 0.5s;
-    z-index: 99;
+    z-index: 1000;
 }
+
+/* .back-to-top {
+    position: fixed;
+    bottom: 80px; Adjust this to move it higher
+    right: 20px; Keeps it on the right
+    z-index: 1000; Ensures it's above other elements
+} */
+
 
 /*** Button Start ***/
 .btn {
